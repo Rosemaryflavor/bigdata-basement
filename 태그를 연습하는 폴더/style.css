@@ -28,3 +28,7 @@ a {
     margin: 0 auto;
     border: 5px solid yellow
 }
+img {
+    width: 200px;
+    text-align: center;
+}
