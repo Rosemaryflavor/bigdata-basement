@@ -3,9 +3,22 @@ a {
     text-decoration: none;
 }
 .list a {
+    color:purple;
     font-size: 20px;
     font-weight: bold;
 }
 .box {
     height: 1000px;
+    /* 둥글게 하기의 방향은 좌.상-> 우.상-> 우.하-> 좌.하 순서로 간다 */
+    border-radius: 30px 30px 0 0;
+    
+}
+.line-blueviolet {
+        border: 5px solid blueviolet
+    }
+.line-pink {
+    border: 5px solid pink
+}
+.line-yello {
+    border: 5px solid yellow
 }
