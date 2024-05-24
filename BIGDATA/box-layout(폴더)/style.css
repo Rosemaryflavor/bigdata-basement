@@ -5,7 +5,6 @@
 .box div {
   width: 150px;
   height: 150px;
-  border: 4px solid chocolate;
 }
 .left-float div {
   float: left;
@@ -15,4 +14,29 @@
 }
 .left-inline div {
  display: inline-block;
+}
+.left-flex {
+  display: flex;
+}
+.right > div {
+  margin: 20px 0;
+}
+.box div {
+  width: 150px;
+  height: 150px;
+  border: 4px solid rebeccapurple;
+}
+.right-float div {
+  float: right;
+}
+.right-inline {
+  text-align: right;
+}
+.right-inline div {
+  display: inline-block;
+  text-align: left;
+}
+.right-flex {
+  display: flex;
+  justify-content: end;
 }
