@@ -1,0 +1,18 @@
+body {
+  background-color: black;
+}
+.google {
+  widh: 500px;
+  margin: 100px auto 0 auto;
+  text-align: center;
+  border: 4px solid red;
+}
+.open-google {
+  /* 앞에 값: 상&하 , 뒤에 값: 좌&우 */
+  padding: 20px 0;
+  background-color: #fff;
+  border-radius: 20px;
+}
+.open-google span {
+  font-weight: 700;
+}
