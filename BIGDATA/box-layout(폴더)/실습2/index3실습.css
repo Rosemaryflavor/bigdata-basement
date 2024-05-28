@@ -32,6 +32,7 @@ a {
   color: dodgerblue;
   text-decoration: underline;
 }
+
 .back-img {
   height: 600px;
   background-image: url(./images/back.jpeg);
@@ -57,6 +58,7 @@ a {
   padding: 12px;
   border-radius: 8px;
 }
+
 .second-box{
   width: 500px;
   text-align: center;
@@ -68,4 +70,40 @@ a {
 }
 .second-box p {
   margin-top: 24px;
+}
+
+.card-list {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+.card-list div {
+  width: 300px;
+  margin: 0 20px;
+  padding: 50px 16px;
+  color: #fff;
+  background-color: #000;
+  text-align: center;
+  border-radius: 20px;
+}
+.card-list div p {
+  margin-top: 20px;
+}
+
+.global-footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #333;
+  margin-top: 80px;
+  padding: 12px 20px;
+  color: #fff;
+}
+
+.footer-link {
+  display: flex;
+}
+
+.footer-link a {
+  padding: 0 12px;
+  color: #fff;
 }
