@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  text-align: center;
+}
+
+.global-header,
+.global-footer {
+  background-color: #fff;
+  font-size: 36px;
+  padding: 30px 0;
+  background-color: blue;
+}
+
+.back-img {
+  height: 500px;
+  background-image: url(./images/video-games-maplestory-hd-wallpaper-3920984d715a5dfb56f7e84f8021466d.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.card-list {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  margin: 40px auto;
+}
+.card-list div {
+  width: 30%;
+  height: 200px;
+  border: 1px solid blue;
+}
+/* break point: 1200px / 768px 
+  1200px 이상: 데스크탑
+  768px ~ 1200px: 태블릿
+  768이하: 모바일
+  1. max-width : (D->T->M) 최대
+  2. min-width : (M->T->D) 최소 */
+
+  @media screen and (max-width: 1200px) {
+   .global-header,
+   .global-footer {
+    background-color: #fff;
+    font-size: 36px;
+    padding: 30px 0;
+    background-color: blue;
+}
+  }
