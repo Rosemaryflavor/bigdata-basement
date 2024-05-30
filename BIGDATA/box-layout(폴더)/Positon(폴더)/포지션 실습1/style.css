@@ -94,6 +94,8 @@ a {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  background-color: white;
+  margin: 40px;
 }
 
 .back-img2 {
@@ -103,6 +105,8 @@ a {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  background-color: #fff;
+  margin: 40px;
   }
   
 .global-footer {
