@@ -56,3 +56,125 @@ body {
 .gnb-list li a:hover {
  color: dodgerblue
 }
+
+.back-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  color: #fff;
+  background-image: url(./assets/images/스누피배경.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.back-img h2 {
+  font-size: 42px;
+}
+.back-img p {
+  width: 800px;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 22px;
+}
+
+.popup-open-btn {
+  padding: 12px 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.card-list {
+  display: flex;
+  width: 90%;
+  margin: 40px auto;
+  justify-content: space-between;
+}
+.card-list div {
+  width: 30%;
+  text-align: center;
+  padding: 20px 12px;
+  border-radius: 12px;
+  background-color: rgb(187, 220, 233);
+}
+.card-list div p {
+  margin-top: 12px; 
+}
+
+.fix-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(187, 220, 233);
+  height: 600px;
+}
+.fix-box div {
+  background-color: #fff;
+  width: 500px;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: 500px;
+  background-attachment: fixed;
+}
+
+.fix-img1 {
+  margin-right: 20px;
+  background-image: url(./assets/images/pngegg.png);
+  background-position: bottom left 260px;
+}
+.fix-img2 {
+  background-image: url(./assets/images/스누피2.png);
+  background-position: bottom right 240px;
+}
+
+.global-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: skyblue;
+  color: #fff;
+}
+
+.sns-link {
+  display: flex;
+}
+.sns-link li a {
+  padding: 12px;
+}
+.sns-link li a i {
+  font-size: 24px;
+  transition: color 500ms;
+}
+.sns-link li a i:hover {
+  color: dodgerblue;
+}
+
+.top-btn {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+}
+.top-btn a i {
+  font-size: 40px;
+  color: rgb(72, 96, 105);
+}
+
+.quick-menu {
+  position: fixed;
+  top: 200px;
+  right: 50px;
+}
+.quick-menu ul {
+  width: 200px;
+  padding: 20px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 12px;
+}
+.quick-menu ul li a {
+  color: #333;
+}
