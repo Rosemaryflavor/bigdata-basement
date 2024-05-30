@@ -4,6 +4,55 @@
   font-style: normal;
 }
 
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+}
+
 body {
   font-family: "Single Day", cursive;
+}
+
+.global-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 40px;
+  background-color: skyblue;
+}
+
+.logo img {
+  width: 60px;
+}
+
+.gnb-list {
+  display: flex;
+}
+.gnb-list li {
+  margin-right: 20px;
+}
+.gnb-list li:last-child {
+  margin-right: 0;
+}
+.gnb-list li a {
+  font-weight: 700;
+  transition: color 500ms;
+}
+.gnb-list li a:hover {
+ color: dodgerblue
 }
