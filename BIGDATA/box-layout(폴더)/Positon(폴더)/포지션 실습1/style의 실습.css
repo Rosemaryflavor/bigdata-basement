@@ -20,6 +20,7 @@ li {
 }
 
 button {
+  cursor: pointer;
   border: none;
   background-color: transparent;
 }
@@ -177,4 +178,83 @@ body {
 }
 .quick-menu ul li a {
   color: #333;
+}
+
+.popup {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 12px;
+  background-color: #fff;
+}
+.popup.is-active {
+   display: block;
+}
+.popup img {
+ width: 100%;
+}
+.popup-header {
+  display: flex;
+  justify-content: space-between;
+}
+.popup-close-btn {
+  font-size: 30px;
+}
+
+@media screen and (madx-width : 1200px) {
+  .card-list {
+    width: 70%;
+    flex-direction: column;
+  }
+  .card-list div {
+    width: 100%;
+    text-align: center;
+    margin: 12px 0;
+  }
+  .card-list div p {
+    margin-top: 12px; 
+  }
+.fix-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(187, 220, 233);
+  height: 600px;
+}
+.fix-box div {
+  background-color: transparent;
+}
+
+.fix-img1 {
+  margin-right: 0;
+  background-image: url(./assets/images/pngegg.png);
+  background-position: bottom center;
+}
+.fix-img2 {
+ display: none;
+}
+}
+
+@media screen and (madx-width : 768px) {
+  .card-list {
+    width: 90%;
+  }
+  .global-footer {
+    flex-direction: column;
+    margin-top: 12px;
+  }
+  .sns-link li a {
+    padding: 8px;
+  }
+  .sns-link li a i {
+    font-size: 20px;
+  }
+  .quick-menu {
+    display: none;
+  }
 }
