@@ -8,7 +8,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 12px 40px;
-  background-color: skyblue;
+  background-color: white;
 }
 
 .logo img {
@@ -19,6 +19,7 @@
   display: flex;
   justify-content: space-between;
   width: 240px;
+  font-weight: 700;
 }
 
 a {
