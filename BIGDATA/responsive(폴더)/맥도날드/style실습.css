@@ -10,6 +10,7 @@ body {
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 a {
@@ -276,11 +277,7 @@ footer ul li a {
   footer {
     flex-wrap: wrap;
   }
-  footer ul li,
-  footer ul li a {
-    color: #fff;
-  }
-  
+
   .footer-info {
     text-align: right;
   }
@@ -292,23 +289,34 @@ footer ul li a {
   }
 
   .sidebar {
-    display: none;
     position: fixed;
     left: 0;
     top: 0;
+    transform: translate(-200px);
     z-index: 100;
     width: 200px;
     height: 100%;
     padding: 30px;
     background-color: #fff;
+    transition: transform 300ms ease-in-out;
   }
-  .sidebar 
+  .sidebar.active {
+    transform: translate(0);
+  }
+
   .overlay {
+    display: none;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.8);
+  }
+  .overlay.active {
+    display: block;
+  }
+  .search-box button {
+    padding: 24px 30px;
   }
 }
