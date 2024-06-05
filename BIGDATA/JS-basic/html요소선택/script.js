@@ -12,7 +12,7 @@ changeBtn.addEventListener('click', () => {
 
 document.querySelector('.item').style.color = 'blue';
 
-let item = document.querySelectorAll('.item');
+let items = document.querySelectorAll('.item');
 // Vanlia Js 코드
 document.querySelectorAll('.item')[0].style.color = 'blue';
 document.querySelectorAll('.item')[1].style.color = 'blue';
@@ -20,14 +20,14 @@ document.querySelectorAll('.item')[2].style.color = 'blue';
 // J-Query 코드
 $('.item').css('color','red');
 
-// items.forEach((item) => {
-//   item.innerHTML = '반복문';
-// })
+items.forEach((item) => {
+  item.innerHTML = '반복문';
+})
 
-// for(let i = 0; i <= items.length; i++) {
-//   items[i].innerHTML = 'for 반복문';
+for(let i = 0; i <= items.length; i++) {
+  items[i].innerHTML = 'for 반복문';
  
-// }
+}
 
 let num = 5;
 let num1 = '5';
@@ -42,11 +42,11 @@ console.log((typeof(txt)));
 let arr = ['may', 3543, 'August', 7754];
 console.log(arr[1])
 
-// let obj = {
-//   이름 : 'seoyeon'
-//   종족 : '인간'
-// }
-// console.log(obj)
+let obj = {
+  이름 : 'seoyeon',
+  종족 : '인간'
+}
+console.log(obj)
 
 let hi = '안녕하세요 저는';
 let name = '위서연';
