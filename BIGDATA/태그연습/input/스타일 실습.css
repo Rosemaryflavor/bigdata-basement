@@ -1,6 +1,7 @@
 .wrapper {
   width: 80%;
   margin: 80% auto;
+  border: 2px solid salmon
 }
 
 .join-txt {
